@@ -19,7 +19,7 @@ var dreamBGGradients = [
   ['#6190E8', '#A7BFE8'],
   ['#4568DC', '#B06AB3'],
   ['#9CECFB', '#65C7F7','#0052D4'],
-  ['#3A1C71','#D76D77','#FFAF7B']
+  ['#3A1C71','#D76D77','#FFAF7B'],
   // Custom
   ['#7F7FD5','#86A8E7','#91EAE4'] // Lan
 ]
