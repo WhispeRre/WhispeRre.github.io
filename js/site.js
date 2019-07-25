@@ -1,15 +1,27 @@
 var SemanticUIColors = [
-  'red',
-  'orange',
-  'yellow',
-  'olive',
-  'green',
-  'teal',
-  'blue',
-  'violet',
-  'purple',
-  'pink',
-  'brown'
+  [],
+  // From https://uigradients.com
+  ['#bdc3c7', '#2c3e50'],
+  ['#ABDCFF', '#0396FF'],
+  ['#1c92d2', '#f2fcfe'],
+  ['#1c92d2', '#f2fcfe'],
+  ['#654ea3', '#eaafc8'],
+  ['#00B4DB', '#0083B0'],
+  ['#FC5C7D', '#6A82FB'],
+  ['#74ebd5', '#ACB6E5'],
+  ['#36D1DC', '#5B86E5'],
+  ['#000046', '#1CB5E0'],
+  ['#007991', '#78ffd6'],
+  ['#56CCF2', '#2F80ED'],
+  ['#4AC29A', '#BDFFF3'],
+  ['#B2FEFA', '#0ED2F7'],
+  ['#C33764', '#1D2671'],
+  ['#6190E8', '#A7BFE8'],
+  ['#4568DC', '#B06AB3'],
+  ['#9CECFB', '#65C7F7','#0052D4'],
+  ['#3A1C71','#D76D77','#FFAF7B']
+  // Custom
+  ['#7F7FD5','#86A8E7','#91EAE4'] // Lan
 ]
 
 $(document).ready(function() {
