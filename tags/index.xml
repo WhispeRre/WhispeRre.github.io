@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>blog</title>
+      <link>https://whisperre.github.io/tags/blog/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://whisperre.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>test</title>
       <link>https://whisperre.github.io/tags/test/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
@@ -63,15 +72,6 @@
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://whisperre.github.io/tags/text/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emoji</title>
-      <link>https://whisperre.github.io/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://whisperre.github.io/tags/emoji/</guid>
       <description></description>
     </item>
     

@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
-Emoji Support
+搭建我自己的第一个静态博客
 </title>
 
   
   
   <meta name="author" content="Whisper" />
-  <meta name="description" content="Emoji can be enabled in a Hugo project in a number of ways.
+  <meta name="description" content="How to build my first static blog.
 " />
 
 
@@ -59,11 +59,62 @@ Emoji Support
       </a>
       <header>
         <h1 class="ui header">
-          Emoji Support
-          <div class="sub header">@ Whisper · Mar 5, 2019 · 1 min read · Update at Mar 5, 2019</div>
+          搭建我自己的第一个静态博客
+          <div class="sub header">@ Whisper · Jul 25, 2019 · 1 min read · Update at Jul 25, 2019</div>
         </h1>
       </header>
-      <article class="markdown-body" style="margin-top: 2rem; font-size: 1.4rem;"><p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+      <article class="markdown-body" style="margin-top: 2rem; font-size: 1.4rem;"><p>How to build my first static blog.</p>
+
+<hr />
+
+<p><strong>1.</strong>
+<br>
+首先要安装hugo本地文件：
+<br>
+·第一步,从<a href="https://github.com/gohugoio/hugo/releases"><code>Hugo Release</code></a>页面下载<code>hugo</code>的压缩包。
+<br>
+·第二步，在你喜欢的地方创建一个<code>Hugo</code>文件夹：<code>D:\Hugo</code>。
+<br>
+·第三步，将下载的压缩包放到刚刚建立的文件夹里面。
+<br>
+·第四步，解压压缩包文件，提取<code>hugo.exe</code>到&rsquo;D:\Hugo&rsquo;里。
+<br>
+·第五步，在你的windows环境变量中加入<code>Hugo.exe</code>路径。
+<br>
+(<a href="https://georgecushen.com/create-your-website-with-hugo/"><code>官方安装指南</code></a>)
+<br></p>
+
+<hr />
+
+<p><strong>2.</strong>
+<br>
+在D盘中重新创建一个<code>hugodata</code>文件夹,进入cmd，在当前文件夹路径下输入
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">hugo <span style="color:#66d9ef">new</span> site <span style="color:#f92672">.</span> <span style="color:#f92672">//</span>生成网站 </code></pre></div>
+之后会在文件夹中生成一些空文件夹
+在<a href="https://themes.gohugo.io/"><code>Hugo Themes</code></a>中选择主题，可以在主题详情界面对主题进行预览
+<img src="/img/hugoblog.jpg" alt="" />
+点击下载，进入github界面点击<code>Clone or downloads</code>,复制主题链接
+<img src="/img/GY8$PP7M_YX9]VDBF~6E]9X.png" alt="" />
+将主题<code>clone</code>到本地的<code>themes</code>文件夹中，进入<code>cmd</code>，在当前文件夹路径下输入
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git clone <span style="color:#f92672">+</span> 主题链接  </code></pre></div>
+·将<code>hugodata</code>文件夹中的<code>exampleSite</code>的内容复制到<code>hugodata</code>路径下
+<br>
+·将<code>hugodata</code>文件夹中的<code>themes\hugo-theme-dream</code>的内容复制到<code>hugodata</code>路径下
+<img src="/img/1111.png" alt="" />
+这样网站就算基本搭建完成了
+<br>
+<br>
+可以在<code>hugodata</code>目录下打开cmd，输入
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">hugo server  </code></pre></div>
+在浏览器中可以访问<code>localhost:1313</code>，来本地预览创建的网站，这个功能可以用来修改网站内容时在本地进行预览，减少上传次数的时间消耗
+<br>
+但是此时还只是在本地保存网页，并没有同步到云端
+<br>
+<br>
+<br>
+<br>
+<br>
+<br></p>
 
 <p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
 
@@ -86,7 +137,7 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
     <footer class="ui attached segment dream-tags">
       
       
-      <a class="ui label" href="/tags/emoji" title="emoji">emoji</a>
+      <a class="ui label" href="/tags/blog" title="blog">blog</a>
       
       
     </footer>
@@ -141,9 +192,9 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
 <section class="ui attached center aligned inverted segment dream-header-tags dream-tags">
 
   
-  <a class="ui label" href="/tags/css" title="css">css</a>
+  <a class="ui label" href="/tags/blog" title="blog">blog</a>
   
-  <a class="ui label" href="/tags/emoji" title="emoji">emoji</a>
+  <a class="ui label" href="/tags/css" title="css">css</a>
   
   <a class="ui label" href="/tags/html" title="html">html</a>
   
