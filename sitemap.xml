@@ -4,23 +4,46 @@
   
   <url>
     <loc>https://whisperre.github.io/categories/</loc>
-    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://whisperre.github.io/post/</loc>
+    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://whisperre.github.io/tags/</loc>
-    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://whisperre.github.io/post/test/</loc>
-    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
+    <loc>https://whisperre.github.io/</loc>
+    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://whisperre.github.io/</loc>
+    <loc>https://whisperre.github.io/categories/ubuntu/</loc>
+    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://whisperre.github.io/tags/ubuntu/</loc>
+    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://whisperre.github.io/post/ubuntu/</loc>
+    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://whisperre.github.io/categories/blog/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -32,13 +55,7 @@
   </url>
   
   <url>
-    <loc>https://whisperre.github.io/categories/test/</loc>
-    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://whisperre.github.io/tags/test/</loc>
+    <loc>https://whisperre.github.io/tags/github/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -49,23 +66,12 @@
   </url>
   
   <url>
-    <loc>https://whisperre.github.io/post/</loc>
-    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://whisperre.github.io/post/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://whisperre.github.io/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://whisperre.github.io/tags/html/</loc>
+    <loc>https://whisperre.github.io/categories/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -77,32 +83,20 @@
   </url>
   
   <url>
-    <loc>https://whisperre.github.io/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://whisperre.github.io/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://whisperre.github.io/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://whisperre.github.io/post/placeholder-text/</loc>
+    <loc>https://whisperre.github.io/categories/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://whisperre.github.io/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://whisperre.github.io/post/placeholder-text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>

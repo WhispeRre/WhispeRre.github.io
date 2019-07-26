@@ -12,8 +12,7 @@
   
   
   <meta name="author" content="Whisper" />
-  <meta name="description" content="How to build my first static blog.
-" />
+  <meta name="description" content="How to build my first static blog" />
 
 
 
@@ -63,15 +62,16 @@
           <div class="sub header">@ Whisper · Jul 25, 2019 · 1 min read · Update at Jul 25, 2019</div>
         </h1>
       </header>
-      <article class="markdown-body" style="margin-top: 2rem; font-size: 1.4rem;"><p>How to build my first static blog.</p>
+      <article class="markdown-body" style="margin-top: 2rem; font-size: 1.4rem;"><h3 id="how-to-build-my-first-static-blog">How to build my first static blog</h3>
 
 <hr />
 
 <p><strong>1.</strong>
-<br>
-首先要安装hugo本地文件：
-<br>
-<br>
+<br></p>
+
+<h3 id="首先要安装hugo本地文件">首先要安装hugo本地文件：</h3>
+
+<p><br>
 ·第一步,从<a href="https://github.com/gohugoio/hugo/releases"><code>Hugo Release</code></a>页面下载<code>hugo</code>的压缩包。
 <img src="/img/VAM8JW5V7A`@N7H[YZDAA]8.png" alt="" />
 <br>
@@ -93,9 +93,11 @@ eg:具体安装步骤参考<a href="https://georgecushen.com/create-your-website
 <hr />
 
 <p><strong>2.</strong>
-<br>
-·在D盘中重新创建一个<code>hugodata</code>文件夹,进入cmd，在当前文件夹路径下输入
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">hugo <span style="color:#66d9ef">new</span> site <span style="color:#f92672">.</span> <span style="color:#f92672">//</span>生成网站 </code></pre></div>
+<br></p>
+
+<h3 id="在d盘中重新创建一个-hugodata-文件夹-进入cmd-在当前文件夹路径下输入">在D盘中重新创建一个<code>hugodata</code>文件夹,进入cmd，在当前文件夹路径下输入</h3>
+
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">hugo <span style="color:#66d9ef">new</span> site <span style="color:#f92672">.</span> <span style="color:#f92672">//</span>生成网站 </code></pre></div>
 之后会在文件夹中生成一些空文件夹，此时还没有将主题添加到网页中
 <br>
 <br>
@@ -103,7 +105,7 @@ eg:具体安装步骤参考<a href="https://georgecushen.com/create-your-website
 <img src="/img/hugoblog.jpg" alt="" />
 点击下载，点击<code>Clone or downloads</code>,复制主题链接
 <img src="/img/9X.png" alt="" />
-·将主题<code>clone</code>到本地<code>hugdata</code>的<code>themes</code>文件夹中，进入<code>cmd</code>，在当前文件夹路径下输入
+·将主题<code>clone</code>到本地<code>hugodata</code>的<code>themes</code>文件夹中，进入<code>cmd</code>，在当前文件夹路径下输入
 <br>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git clone <span style="color:#f92672">+</span> 主题链接  </code></pre></div>
 ·将<code>hugodata</code>文件夹中的<code>exampleSite</code>的内容复制到<code>hugodata</code>路径下
@@ -127,13 +129,17 @@ eg:具体安装步骤参考<a href="https://georgecushen.com/create-your-website
 <hr />
 
 <p><strong>3.</strong>
-<br>
-(1)到官网下载<a href="https://git-scm.com/download/win"><code>GitHub的安装软件</code></a>
-<br><br>
+<br></p>
+
+<h3 id="1-到官网下载-github的安装软件-https-git-scm-com-download-win">(1)到官网下载<a href="https://git-scm.com/download/win"><code>GitHub的安装软件</code></a></h3>
+
+<p><br>
 注意进入这个网页后等待几秒钟下载会自动进行，下载完毕后直接双击运行，按照说明安装即可。
-<br><br>
-(2)安装完成后需要进行的操作：
-<br><br>
+<br><br></p>
+
+<h3 id="2-安装完成后需要进行的操作">(2)安装完成后需要进行的操作：</h3>
+
+<p><br>
 ·首先将<code>Git</code>的安装路径添加到系统的环境变量中：
 <br><br>
 右击计算机——<code>属性</code>——<code>高级系统设置</code>———<code>环境变量</code>——找到<code>系统变量</code>下的<code>Path</code>，点击<code>新建</code>，将刚刚安装的Git的目录加进去即可：
@@ -143,9 +149,11 @@ eg:具体安装步骤参考<a href="https://georgecushen.com/create-your-website
 <br>
 如果出现类似下面情况说明安装成功！
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git version 2<span style="color:#f92672">.</span><span style="color:#a6e22e">17</span><span style="color:#f92672">.</span><span style="color:#a6e22e">0</span><span style="color:#f92672">.</span><span style="color:#a6e22e">windows</span><span style="color:#f92672">.</span><span style="color:#a6e22e">1</span>  </code></pre></div>
-<br>
-(3)Git初始配置
-<br><br>
+<br></p>
+
+<h3 id="3-git初始配置">(3)Git初始配置</h3>
+
+<p><br>
 安装成功后在桌面点击<code>右键</code>——<code>git bash</code>,即可启动git终端
 <br><br>
 前提要有一个GitHub账户，没有的话可以直接去GitHub官网申请
@@ -154,9 +162,11 @@ eg:具体安装步骤参考<a href="https://georgecushen.com/create-your-website
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git config <span style="color:#f92672">--</span>global user<span style="color:#f92672">.</span><span style="color:#a6e22e">name</span>   <span style="color:#960050;background-color:#1e0010">#</span>这里是官网注册的用户名
 git config <span style="color:#f92672">--</span>global user<span style="color:#f92672">.</span><span style="color:#a6e22e">email</span>  <span style="color:#960050;background-color:#1e0010">#</span>这里是官网注册的邮箱 </code></pre></div>
 这样就能在本地终端绑定自己的GitHub账户
-<br><br>
-(4)在GitHub上创建库
-<br><br>
+<br><br></p>
+
+<h3 id="4-在github上创建库">(4)在GitHub上创建库</h3>
+
+<p><br>
 进入自己的github主页，点击右上角的<code>+</code>之后选择第一项<code>New repository</code>
 <img src="/img/B39SY.png" alt="" />
 <br><br>
@@ -165,9 +175,11 @@ git config <span style="color:#f92672">--</span>global user<span style="color:#f
 <img src="/img/5U.png" alt="" />
 <br>
 (本人创建了一个名为<code>WhispeRre.github.io</code>的库，这个库名就是在本地存放需要上传到GitHub库的文件夹名，同时也是以后静态博客的网址)
-<br><br>
-(5)创建本地库
-<br><br>
+<br><br></p>
+
+<h3 id="5-创建本地库">(5)创建本地库</h3>
+
+<p><br>
 创建一个与GitHub库名相同的文件夹
 <img src="/img/IFY.png" alt="" />
 <br><br>
@@ -177,9 +189,11 @@ git config <span style="color:#f92672">--</span>global user<span style="color:#f
 在库同名文件夹中右键打开git bash,在命令行输入
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git clone <span style="color:#f92672">+</span> 库链接 </code></pre></div>
 这样就可以把云端Github库的内容复制到本地
-<br><br>
-(6)将静态博客内容保存到本地库
-<br><br>
+<br><br></p>
+
+<h3 id="6-将静态博客内容保存到本地库">(6)将静态博客内容保存到本地库</h3>
+
+<p><br>
 在之前创建的<code>hugodata</code>文件夹中<code>shift+右键</code>打开命令行，输入
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">hugo </code></pre></div>
 这样会同目录下生成一个新的<code>public</code>文件夹，将文件夹内容全选并复制
@@ -195,9 +209,11 @@ git config <span style="color:#f92672">--</span>global user<span style="color:#f
 <br><br>
 这样之后就将静态博客内容保存到本地库中
 <img src="/img/VT5A.png" alt="" />
-<br><br>
-(7)将本地库中的文件上传到云端GitHub库中
-<br><br>
+<br><br></p>
+
+<h3 id="7-将本地库中的文件上传到云端github库中">(7)将本地库中的文件上传到云端GitHub库中</h3>
+
+<p><br>
 在本地库文件夹中<code>shift+右键</code>打开命令行，输入
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git add <span style="color:#f92672">.</span>
 git commit <span style="color:#f92672">-</span>m <span style="color:#e6db74">&#34;尝试上传&#34;</span>
@@ -248,9 +264,9 @@ git push</code></pre></div>
 
 <p><strong>在本人博客的搭建过程中非常感谢杨森同学的帮助</strong></p>
 
-<p>若文章内容有误，欢迎通过各种渠道向我反映
+<p>若文章内容有误，欢迎通过各种渠道向我反馈
 <br>
-谢谢
+谢谢！
 </p></article>
     </section>
 
@@ -258,6 +274,8 @@ git push</code></pre></div>
       
       
       <a class="ui label" href="/tags/blog" title="blog">blog</a>
+      
+      <a class="ui label" href="/tags/github" title="github">github</a>
       
       
     </footer>
@@ -314,17 +332,13 @@ git push</code></pre></div>
   
   <a class="ui label" href="/tags/blog" title="blog">blog</a>
   
-  <a class="ui label" href="/tags/css" title="css">css</a>
-  
-  <a class="ui label" href="/tags/html" title="html">html</a>
+  <a class="ui label" href="/tags/github" title="github">github</a>
   
   <a class="ui label" href="/tags/markdown" title="markdown">markdown</a>
   
-  <a class="ui label" href="/tags/test" title="test">test</a>
-  
   <a class="ui label" href="/tags/text" title="text">text</a>
   
-  <a class="ui label" href="/tags/themes" title="themes">themes</a>
+  <a class="ui label" href="/tags/ubuntu" title="ubuntu">ubuntu</a>
   
 </section>
 
@@ -339,7 +353,7 @@ git push</code></pre></div>
     
     <div class="title">
       <i class="dropdown icon"></i>
-      <a href="/categories/syntax" class="item">syntax</a>
+      <a href="/categories/blog" class="item">blog</a>
     </div>
     <div class="content">
       <div class="ui link list">
@@ -347,7 +361,7 @@ git push</code></pre></div>
       <div class="item" style="padding-left: 24px;">
         <i class="gem outline grey icon"></i>
         <div class="content">
-          <a href="https://whisperre.github.io/post/markdown-syntax/" class="item">Markdown Syntax Guide</a>
+          <a href="https://whisperre.github.io/post/bulid-my-blog/" class="item">如何搭建自己的第一个静态博客</a>
         </div>
       </div>
       
@@ -356,7 +370,7 @@ git push</code></pre></div>
     
     <div class="title">
       <i class="dropdown icon"></i>
-      <a href="/categories/test" class="item">test</a>
+      <a href="/categories/markdown" class="item">markdown</a>
     </div>
     <div class="content">
       <div class="ui link list">
@@ -364,7 +378,7 @@ git push</code></pre></div>
       <div class="item" style="padding-left: 24px;">
         <i class="gem outline grey icon"></i>
         <div class="content">
-          <a href="https://whisperre.github.io/post/test/" class="item">This is my first blog</a>
+          <a href="https://whisperre.github.io/post/markdown-syntax/" class="item">Markdown 语法概述</a>
         </div>
       </div>
       
@@ -373,7 +387,7 @@ git push</code></pre></div>
     
     <div class="title">
       <i class="dropdown icon"></i>
-      <a href="/categories/themes" class="item">themes</a>
+      <a href="/categories/text" class="item">text</a>
     </div>
     <div class="content">
       <div class="ui link list">
@@ -381,7 +395,24 @@ git push</code></pre></div>
       <div class="item" style="padding-left: 24px;">
         <i class="gem outline grey icon"></i>
         <div class="content">
-          <a href="https://whisperre.github.io/post/markdown-syntax/" class="item">Markdown Syntax Guide</a>
+          <a href="https://whisperre.github.io/post/placeholder-text/" class="item">占位符文本</a>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+    
+    <div class="title">
+      <i class="dropdown icon"></i>
+      <a href="/categories/ubuntu" class="item">ubuntu</a>
+    </div>
+    <div class="content">
+      <div class="ui link list">
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="gem outline grey icon"></i>
+        <div class="content">
+          <a href="https://whisperre.github.io/post/ubuntu/" class="item">如何在虚拟机中安装ubuntu系统</a>
         </div>
       </div>
       
@@ -457,6 +488,8 @@ git push</code></pre></div>
 <p>E-mail:1148973244@qq.com</p>
 
 <p>Weibo/Wechat/Phone : 18703893419</p>
+
+<p>GitHub：WhispeRre</p>
 
               
           </div>

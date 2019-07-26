@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ubuntu on Whisper&#39;s Blog</title>
+    <link>https://whisperre.github.io/categories/ubuntu/</link>
+    <description>Recent content in ubuntu on Whisper&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Whisper-2019</copyright>
+    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://whisperre.github.io/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何在虚拟机中安装ubuntu系统</title>
+      <link>https://whisperre.github.io/post/ubuntu/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://whisperre.github.io/post/ubuntu/</guid>
+      <description>&lt;h3 id=&#34;how-to-install-ubuntu-system-in-virtual-machine&#34;&gt;How to install ubuntu system in virtual machine&lt;/h3&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

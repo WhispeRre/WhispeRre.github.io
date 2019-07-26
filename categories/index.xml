@@ -7,35 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Whisper-2019</copyright>
-    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://whisperre.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>test</title>
-      <link>https://whisperre.github.io/categories/test/</link>
+      <title>ubuntu</title>
+      <link>https://whisperre.github.io/categories/ubuntu/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://whisperre.github.io/categories/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://whisperre.github.io/categories/blog/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://whisperre.github.io/categories/test/</guid>
+      <guid>https://whisperre.github.io/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>syntax</title>
-      <link>https://whisperre.github.io/categories/syntax/</link>
+      <title>markdown</title>
+      <link>https://whisperre.github.io/categories/markdown/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://whisperre.github.io/categories/syntax/</guid>
+      <guid>https://whisperre.github.io/categories/markdown/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>themes</title>
-      <link>https://whisperre.github.io/categories/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>text</title>
+      <link>https://whisperre.github.io/categories/text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://whisperre.github.io/categories/themes/</guid>
+      <guid>https://whisperre.github.io/categories/text/</guid>
       <description></description>
     </item>
     

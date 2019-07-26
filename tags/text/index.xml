@@ -13,13 +13,12 @@
     
     
     <item>
-      <title>Placeholder Text</title>
+      <title>占位符文本</title>
       <link>https://whisperre.github.io/post/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://whisperre.github.io/post/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
-pectora summo.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;placeholder-text&#34;&gt;Placeholder Text&lt;/h3&gt;</description>
     </item>
     
   </channel>
