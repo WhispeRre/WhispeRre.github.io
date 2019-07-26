@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+搭建我自己的第一个静态博客
+</title>
+
+  
+  
+  <meta name="author" content="Whisper" />
+  <meta name="description" content="How to build my first static blog.
+" />
+
+
+
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+
+<meta name="generator" content="Hugo 0.55.6" />
+
+
+<link rel="canonical" href="https://whisperre.github.io/post/bulid-my-blog/" />
+<link rel="alternative" href="/index.xml" title="Whisper&#39;s Blog" type="application/atom+xml" />
+
+<link href="/css/semantic.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="/css/site.css" />
+<link rel="stylesheet" href="/css/github-markdown.css" />
+
+
+</head>
+
+<body>
+  <div class="flip-container">
+    <div class="flipper">
+      <section class="front">
+        
+<nav class="ui top secondary menu">
+  <div class="item">
+    <i class="inverted big link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  <div class="item">
+    <a href="/">
+      <i class="inverted big link home icon" title="Home"></i>
+    </a>
+  </div>
+</nav>
+ 
+<div class="ui centered grid">
+  <div class="fifteen wide mobile fifteen wide tablet eleven wide computer column post-list post-single-main">
+
+    <section class="ui top attached segment">
+      <a class="ui black right corner label" href="javascript:void(0)" onclick="savePostAsImg()">
+        <i class="save icon"></i>
+      </a>
+      <header>
+        <h1 class="ui header">
+          搭建我自己的第一个静态博客
+          <div class="sub header">@ Whisper · Jul 25, 2019 · 2 min read · Update at Jul 25, 2019</div>
+        </h1>
+      </header>
+      <article class="markdown-body" style="margin-top: 2rem; font-size: 1.4rem;"><p>How to build my first static blog.</p>
+
+<p><br>
+如何搭建我自己的第一个静态博客</p>
+
+<hr />
+
+<p><strong>1.</strong>
+<br>
+首先要安装hugo本地文件：
+<br>
+<br>
+·第一步,从<a href="https://github.com/gohugoio/hugo/releases"><code>Hugo Release</code></a>页面下载<code>hugo</code>的压缩包。
+<img src="/img/VAM8JW5V7A`@N7H[YZDAA]8.png" alt="" />
+<br>
+·第二步，在你喜欢的地方创建一个<code>Hugo</code>文件夹：<code>D:\Hugo</code>。
+<img src="/img/2ILBMJJIY.png" alt="" />
+<br>
+·第三步，将下载的压缩包放到刚刚建立的文件夹里面。
+<img src="/img/$4DI3.png" alt="" />
+<br>
+·第四步，解压压缩包文件，提取<code>hugo.exe</code>到&rsquo;D:\Hugo&rsquo;里。
+<br>
+<br>
+·第五步，在你的windows环境变量中加入<code>Hugo.exe</code>路径。
+<br>
+<br>
+<a href="https://georgecushen.com/create-your-website-with-hugo/"><code>官方安装指南</code></a>
+<br></p>
+
+<hr />
+
+<p><strong>2.</strong>
+<br>
+在D盘中重新创建一个<code>hugodata</code>文件夹,进入cmd，在当前文件夹路径下输入
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">hugo <span style="color:#66d9ef">new</span> site <span style="color:#f92672">.</span> <span style="color:#f92672">//</span>生成网站 </code></pre></div>
+之后会在文件夹中生成一些空文件夹，此时还没有将主题添加到网页中
+<br>
+<br>
+在<a href="https://themes.gohugo.io/"><code>Hugo Themes</code></a>中选择主题，可以在主题详情界面对主题进行预览
+<img src="/img/hugoblog.jpg" alt="" />
+点击下载，进入github界面点击<code>Clone or downloads</code>,复制主题链接
+<img src="/img/9X.png" alt="" />
+将主题<code>clone</code>到本地的<code>themes</code>文件夹中，进入<code>cmd</code>，在当前文件夹路径下输入
+<br>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git clone <span style="color:#f92672">+</span> 主题链接  </code></pre></div>
+·将<code>hugodata</code>文件夹中的<code>exampleSite</code>的内容复制到<code>hugodata</code>路径下
+<br>
+<br>
+·将<code>hugodata</code>文件夹中的<code>themes\hugo-theme-dream</code>的内容复制到<code>hugodata</code>路径下
+<img src="/img/1111.png" alt="" />
+这样网站就算基本搭建完成了
+<br>
+<br>
+可以在<code>hugodata</code>目录下打开cmd，输入
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">hugo server  </code></pre></div>
+在浏览器中可以访问<code>localhost:1313</code>，来本地预览创建的网站，这个功能可以用来修改网站内容时在本地进行预览，减少上传次数的时间消耗
+<br>
+<br>
+但是此时还只是在本地保存网页，并没有同步到云端，接下来就是利用GitHub库来保存
+<br></p>
+
+<hr />
+
+<p><strong>3.</strong>
+<br>
+(1)到官网下载<a href="https://git-scm.com/download/win"><code>GitHub的安装软件</code></a>
+<br><br>
+注意进入这个网页后等待几秒钟下载会自动进行，下载完毕后直接双击运行，按照说明安装即可。
+<br><br>
+(2)安装完成后需要进行的操作：
+<br><br>
+·首先将<code>Git</code>的安装路径添加到系统的环境变量中：
+<br><br>
+右击计算机——<code>属性</code>——<code>高级系统设置</code>———<code>环境变量</code>——找到<code>系统变量</code>下的<code>Path</code>，点击<code>新建</code>，将刚刚安装的Git的目录加进去即可：
+<br><br>
+·在本地cmd中输入命令：
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git <span style="color:#f92672">--</span>version  </code></pre></div>
+如果出现类似下面情况说明安装成功！
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git version 2<span style="color:#f92672">.</span><span style="color:#a6e22e">17</span><span style="color:#f92672">.</span><span style="color:#a6e22e">0</span><span style="color:#f92672">.</span><span style="color:#a6e22e">windows</span><span style="color:#f92672">.</span><span style="color:#a6e22e">1</span>  </code></pre></div>
+<br>
+(3)Git初始配置
+<br><br>
+安装成功后在桌面点击<code>右键</code>——<code>git bash</code>,即可启动git终端
+<br><br>
+前提要有一个GitHub账户，没有的话可以直接去GitHub官网申请
+<br><br>
+进入终端后输入以下代码
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git config <span style="color:#f92672">--</span>global user<span style="color:#f92672">.</span><span style="color:#a6e22e">name</span>   <span style="color:#960050;background-color:#1e0010">#</span>这里是官网注册的用户名
+git config <span style="color:#f92672">--</span>global user<span style="color:#f92672">.</span><span style="color:#a6e22e">email</span>  <span style="color:#960050;background-color:#1e0010">#</span>这里是官网注册的邮箱 </code></pre></div>
+这样就能在本地终端绑定自己的GitHub账户
+<br><br>
+(4)在GitHub上创建库
+<br><br>
+进入自己的github主页，点击右上角的<code>+</code>之后选择第一项<code>New repository</code>
+<img src="/img/B39SY.png" alt="" />
+<br><br>
+填写内容完成创建
+<br></p>
+
+<p><img src="/img/5U.png" alt="" />
+<br>
+(本人创建了一个名为<code>WhispeRre.github.io</code>的库，这个库名就是在本地存放需要上传到GitHub库的文件夹名，同时也是以后静态博客的网址)
+<br><br>
+(5)创建本地库
+<br><br>
+创建一个与GitHub库名相同的文件夹
+<img src="/img/IFY.png" alt="" />
+<br><br>
+进入GitHub刚刚创建的库中，点击<code>clone or download</code>,将链接复制下来
+<img src="/img/GZL.png" alt="" />
+<br><br>
+在库同名文件夹中右键打开git bash,输入
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git clone <span style="color:#f92672">+</span> 库链接 </code></pre></div>
+这样就可以把云端Github库的内容复制到本地
+<br><br>
+(6)将静态博客内容保存到本地库
+<br><br>
+在之前创建的hugodata文件夹中<code>shift+右键</code>打开命令行，输入
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">hugo </code></pre></div>
+这样会同目录下生成一个新的<code>public</code>文件夹，将文件夹内容全选并复制
+<img src="/img/P1.png" alt="" />
+<br><br>
+之后进入库同名文件夹中
+<br><br>
+<strong><em>注意！！！</em></strong>
+<br><br>
+观察文件夹中是否有名为<code>.git</code>的文件夹，如果有，则选中除<code>.git</code>之外的文件夹，将刚刚复制的文件夹进行替换
+<br><br>
+如果没有<code>.git</code>文件夹，查看是否被隐藏，如果被隐藏，则全选库同名文件夹中的全部文件，替换即可
+<br><br>
+这样之后就将静态博客内容保存到本地库中
+<img src="/img/VT5A.png" alt="" />
+<br><br>
+(7)将本地库中的文件上传到云端GitHub库中
+<br><br>
+在本地库文件夹中<code>shift+右键</code>打开命令行，输入
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git add <span style="color:#f92672">.</span>
+git commit <span style="color:#f92672">-</span>m <span style="color:#e6db74">&#34;尝试上传&#34;</span>
+git push</code></pre></div>
+就可以将本地库文件上传到GitHub云端库上
+<br><br>
+在GitHub库中可以查看自己的上传记录
+<img src="/img/M]8.png" alt="" />
+<br><br>
+如果显示了对应的上传记录，则说明上传成功
+<br><br>
+这时就可以在浏览器中输入自己的域名(比如本人的域名<a href="https://whisperre.github.io/">https://whisperre.github.io/</a>) 来查看自己创建的博客
+<img src="/img/C2AW.png" alt="" />
+<br><br>
+这些步骤过后静态博客的搭建基本上就大功告成了！！！</p>
+
+<hr />
+
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br></p>
+
+<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
+
+<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
+
+<p><p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
+<br></p>
+
+<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
+
+<hr />
+
+<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">.emoji {
+font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
+}</code></pre></div></article>
+    </section>
+
+    <footer class="ui attached segment dream-tags">
+      
+      
+      <a class="ui label" href="/tags/blog" title="blog">blog</a>
+      
+      
+    </footer>
+
+    
+    <footer class="ui attached segment">
+      Whisper-2019
+    </footer>
+    
+
+    
+
+  </div>
+  <div class="fifteen wide mobile fifteen wide tablet four wide computer column">
+
+    
+<section class="ui top attached center aligned inverted segment">
+
+  <a id="tag-category-pop" class="ui right ribbon label" style="width: 1px;">
+    <i class="bars icon" title="Show menu"></i>
+  </a>
+
+  <div class="ui small circular image" style="margin-top: 1rem;">
+    
+    <img src="/img/avatar-ex.svg">
+    
+  </div>
+  
+  <h3 class="ui inverted header">
+  Whisper&#39;s blog<div class="sub header">I Exist Because I Know You Need Me</div>
+  </h3>
+
+  
+  <div class="ui inverted horizontal list">
+  
+    
+    <a class="item" href="/post">
+      <i class="archive icon" title="Archives"></i>
+    </a>
+    
+    <a class="item" href="/tags">
+      <i class="tags icon" title="All Tags"></i>
+    </a>
+    <a class="item" href="/categories">
+      <i class="cube icon" title="All Categories"></i>
+    </a>
+  </div>
+</section>
+
+
+
+<section class="ui attached center aligned inverted segment dream-header-tags dream-tags">
+
+  
+  <a class="ui label" href="/tags/blog" title="blog">blog</a>
+  
+  <a class="ui label" href="/tags/css" title="css">css</a>
+  
+  <a class="ui label" href="/tags/html" title="html">html</a>
+  
+  <a class="ui label" href="/tags/markdown" title="markdown">markdown</a>
+  
+  <a class="ui label" href="/tags/test" title="test">test</a>
+  
+  <a class="ui label" href="/tags/text" title="text">text</a>
+  
+  <a class="ui label" href="/tags/themes" title="themes">themes</a>
+  
+</section>
+
+
+
+
+<section class="ui attached inverted segment dream-categories">
+
+  
+  <div class="ui inverted accordion">
+  
+    
+    <div class="title">
+      <i class="dropdown icon"></i>
+      <a href="/categories/syntax" class="item">syntax</a>
+    </div>
+    <div class="content">
+      <div class="ui link list">
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="gem outline grey icon"></i>
+        <div class="content">
+          <a href="https://whisperre.github.io/post/markdown-syntax/" class="item">Markdown Syntax Guide</a>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+    
+    <div class="title">
+      <i class="dropdown icon"></i>
+      <a href="/categories/test" class="item">test</a>
+    </div>
+    <div class="content">
+      <div class="ui link list">
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="gem outline grey icon"></i>
+        <div class="content">
+          <a href="https://whisperre.github.io/post/test/" class="item">This is my first blog</a>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+    
+    <div class="title">
+      <i class="dropdown icon"></i>
+      <a href="/categories/themes" class="item">themes</a>
+    </div>
+    <div class="content">
+      <div class="ui link list">
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="gem outline grey icon"></i>
+        <div class="content">
+          <a href="https://whisperre.github.io/post/markdown-syntax/" class="item">Markdown Syntax Guide</a>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+
+<section class="ui bottom attached center aligned inverted segment">
+
+    
+    <p>© 2019 Whisper&#39;s Blog</p>
+    
+    <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+</section>
+
+
+  </div>
+</div>
+
+      </section>
+      <section class="back">
+        <nav class="ui top secondary menu" style="overflow-x: auto">
+  <div class="item">
+    <i class="inverted big link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  
+  <div class="item">
+    <a href="mailto:1148973244@qq.com">
+      <i class="inverted big mail icon" title="email"></i>
+    </a>
+  </div>
+  
+  
+  <div class="item">
+    <a href="https://github.com/WhisperRe" target="_blank">
+      <i class="inverted big github icon" title="github"></i>
+    </a>
+  </div>
+  
+  
+  
+  
+</nav>
+
+<div class="ui centered grid about">
+  <div class="fifteen wide mobile fifteen wide tablet fifteen wide computer column">
+
+    <section class="ui stacked segments">
+      
+      <header class="ui inverted segment">
+      
+        <h2 class="ui header">
+          About Myself
+        </h2>
+      </header>
+
+      
+      <article class="ui inverted segment markdown-body">
+      
+        <div class="ui stackable three column grid">
+          <div class="column">
+              
+              <p>Welcome to my blog</p>
+
+<p>欢迎访问我的博客</p>
+
+<p>QQ : 1148973244@qq.com</p>
+
+<p>Weibo/Wechat : 18703893419</p>
+
+              
+          </div>
+          <div class="column">
+              
+          </div>
+          <div class="column">
+              
+          </div>
+        </div>
+      </article>
+
+      
+      <footer class="ui secondary segment">
+        Whisper-2019
+      </footer>
+      
+
+      
+      
+    </section>
+
+  </div>
+</div>
+
+      </section>
+    </div>
+  </div>
+
+  
+<script src="/js/jquery.min.js"></script>
+<script src="/js/semantic.min.js"></script>
+<script src="/js/html2canvas.min.js"></script>
+<script src="/js/bg.js"></script>
+<script src="/js/site.js"></script>
+
+
+
+</body>
+
+</html>
