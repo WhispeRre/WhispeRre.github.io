@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
-搭建我自己的第一个静态博客
+如何搭建自己的第一个静态博客
 </title>
 
   
@@ -59,14 +59,11 @@
       </a>
       <header>
         <h1 class="ui header">
-          搭建我自己的第一个静态博客
-          <div class="sub header">@ Whisper · Jul 25, 2019 · 2 min read · Update at Jul 25, 2019</div>
+          如何搭建自己的第一个静态博客
+          <div class="sub header">@ Whisper · Jul 25, 2019 · 1 min read · Update at Jul 25, 2019</div>
         </h1>
       </header>
       <article class="markdown-body" style="margin-top: 2rem; font-size: 1.4rem;"><p>How to build my first static blog.</p>
-
-<p><br>
-如何搭建我自己的第一个静态博客</p>
 
 <hr />
 
@@ -90,23 +87,23 @@
 ·第五步，在你的windows环境变量中加入<code>Hugo.exe</code>路径。
 <br>
 <br>
-<a href="https://georgecushen.com/create-your-website-with-hugo/"><code>官方安装指南</code></a>
+eg:具体安装步骤参考<a href="https://georgecushen.com/create-your-website-with-hugo/"><code>官方安装指南</code></a>
 <br></p>
 
 <hr />
 
 <p><strong>2.</strong>
 <br>
-在D盘中重新创建一个<code>hugodata</code>文件夹,进入cmd，在当前文件夹路径下输入
+·在D盘中重新创建一个<code>hugodata</code>文件夹,进入cmd，在当前文件夹路径下输入
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">hugo <span style="color:#66d9ef">new</span> site <span style="color:#f92672">.</span> <span style="color:#f92672">//</span>生成网站 </code></pre></div>
 之后会在文件夹中生成一些空文件夹，此时还没有将主题添加到网页中
 <br>
 <br>
-在<a href="https://themes.gohugo.io/"><code>Hugo Themes</code></a>中选择主题，可以在主题详情界面对主题进行预览
+·在<a href="https://themes.gohugo.io/"><code>Hugo Themes</code></a>中选择主题，可以在主题详情界面对主题进行预览
 <img src="/img/hugoblog.jpg" alt="" />
-点击下载，进入github界面点击<code>Clone or downloads</code>,复制主题链接
+点击下载，点击<code>Clone or downloads</code>,复制主题链接
 <img src="/img/9X.png" alt="" />
-将主题<code>clone</code>到本地的<code>themes</code>文件夹中，进入<code>cmd</code>，在当前文件夹路径下输入
+·将主题<code>clone</code>到本地<code>hugdata</code>的<code>themes</code>文件夹中，进入<code>cmd</code>，在当前文件夹路径下输入
 <br>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git clone <span style="color:#f92672">+</span> 主题链接  </code></pre></div>
 ·将<code>hugodata</code>文件夹中的<code>exampleSite</code>的内容复制到<code>hugodata</code>路径下
@@ -114,7 +111,9 @@
 <br>
 ·将<code>hugodata</code>文件夹中的<code>themes\hugo-theme-dream</code>的内容复制到<code>hugodata</code>路径下
 <img src="/img/1111.png" alt="" />
-这样网站就算基本搭建完成了
+<br>
+<br>
+这样本地的静态网站就算基本搭建完成了
 <br>
 <br>
 可以在<code>hugodata</code>目录下打开cmd，输入
@@ -141,6 +140,7 @@
 <br><br>
 ·在本地cmd中输入命令：
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git <span style="color:#f92672">--</span>version  </code></pre></div>
+<br>
 如果出现类似下面情况说明安装成功！
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git version 2<span style="color:#f92672">.</span><span style="color:#a6e22e">17</span><span style="color:#f92672">.</span><span style="color:#a6e22e">0</span><span style="color:#f92672">.</span><span style="color:#a6e22e">windows</span><span style="color:#f92672">.</span><span style="color:#a6e22e">1</span>  </code></pre></div>
 <br>
@@ -160,10 +160,9 @@ git config <span style="color:#f92672">--</span>global user<span style="color:#f
 进入自己的github主页，点击右上角的<code>+</code>之后选择第一项<code>New repository</code>
 <img src="/img/B39SY.png" alt="" />
 <br><br>
-填写内容完成创建
-<br></p>
-
-<p><img src="/img/5U.png" alt="" />
+填写内容完成库创建(注意：这个库中的内容全部用来存放静态博客的相关内容)
+<br>
+<img src="/img/5U.png" alt="" />
 <br>
 (本人创建了一个名为<code>WhispeRre.github.io</code>的库，这个库名就是在本地存放需要上传到GitHub库的文件夹名，同时也是以后静态博客的网址)
 <br><br>
@@ -175,13 +174,13 @@ git config <span style="color:#f92672">--</span>global user<span style="color:#f
 进入GitHub刚刚创建的库中，点击<code>clone or download</code>,将链接复制下来
 <img src="/img/GZL.png" alt="" />
 <br><br>
-在库同名文件夹中右键打开git bash,输入
+在库同名文件夹中右键打开git bash,在命令行输入
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git clone <span style="color:#f92672">+</span> 库链接 </code></pre></div>
 这样就可以把云端Github库的内容复制到本地
 <br><br>
 (6)将静态博客内容保存到本地库
 <br><br>
-在之前创建的hugodata文件夹中<code>shift+右键</code>打开命令行，输入
+在之前创建的<code>hugodata</code>文件夹中<code>shift+右键</code>打开命令行，输入
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">hugo </code></pre></div>
 这样会同目录下生成一个新的<code>public</code>文件夹，将文件夹内容全选并复制
 <img src="/img/P1.png" alt="" />
@@ -217,29 +216,42 @@ git push</code></pre></div>
 
 <hr />
 
-<p><br>
+<p><strong>More.</strong>
 <br>
-<br>
-<br>
-<br>
-<br></p>
-
-<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
-
-<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
-
-<p><p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
-<br></p>
-
-<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
+关于博客界面和内容的修改
+<br><br>
+·博客界面修改与主题有关，可以在<a href="https://themes.gohugo.io/"><code>Hugo Themes</code></a>中找到自己下载的对应主题，点击<code>Homepage</code>
+<img src="/img/7CFUQIR.png" alt="" />
+即可查看对应主题的帮助文档，其中包含了一些主题修改的解释与帮助
+<br><br>
+·博客文章内容在本地一般存放在<code>hugodata\content\post</code>文件夹中，使用markdown语言编辑
+<img src="/img/TD3.png" alt="" /></p>
 
 <hr />
 
-<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
+<p><strong>Ps.</strong>
+<br>
+每次在本地对网站进行修改之后，在<code>hugodata</code>对应的文件夹中打开命令行，输入
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">hugo</code></pre></div>
+即可将本地文件中的修改集成在一个新的public文件中
+<br>
+将public文件中的所有内容复制到库同名文件夹中
+<br>
+在库同名文件夹中打开命令行，输入
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git add <span style="color:#f92672">.</span>
+git commit <span style="color:#f92672">-</span>m <span style="color:#e6db74">&#34;尝试上传&#34;</span>
+git push</code></pre></div>
+就完成了一次网站内容的上传
+<br></p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">.emoji {
-font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
-}</code></pre></div></article>
+<hr />
+
+<p><strong>在本人博客的搭建过程中非常感谢杨森同学的帮助</strong></p>
+
+<p>若文章内容有误，欢迎通过各种渠道向我反映
+<br>
+谢谢
+</p></article>
     </section>
 
     <footer class="ui attached segment dream-tags">
@@ -440,9 +452,11 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
 
 <p>欢迎访问我的博客</p>
 
-<p>QQ : 1148973244@qq.com</p>
+<p>QQ : 1148973244</p>
 
-<p>Weibo/Wechat : 18703893419</p>
+<p>E-mail:1148973244@qq.com</p>
+
+<p>Weibo/Wechat/Phone : 18703893419</p>
 
               
           </div>
