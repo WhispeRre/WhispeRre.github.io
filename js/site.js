@@ -8,8 +8,7 @@ var SemanticUIColors = [
   'blue',
   'violet',
   'purple',
-  'pink',
-  'brown'
+  'pink'
 ]
 
 $(document).ready(function() {

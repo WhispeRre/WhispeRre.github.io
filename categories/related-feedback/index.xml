@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Related feedback on Whisper&#39;s Blog</title>
+    <link>https://whisperre.github.io/categories/related-feedback/</link>
+    <description>Recent content in Related feedback on Whisper&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Whisper-2019</copyright>
+    <lastBuildDate>Sun, 28 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://whisperre.github.io/categories/related-feedback/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>相关反馈</title>
+      <link>https://whisperre.github.io/post/related-feedback/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://whisperre.github.io/post/related-feedback/</guid>
+      <description>&lt;h3 id=&#34;related-feedback&#34;&gt;Related feedback&lt;/h3&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
