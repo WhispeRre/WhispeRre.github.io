@@ -14,13 +14,13 @@
   </url>
   
   <url>
-    <loc>https://whisperre.github.io/tags/related-feedback/</loc>
+    <loc>https://whisperre.github.io/categories/related-feedback/</loc>
     <lastmod>2019-07-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://whisperre.github.io/categories/related-feedback/</loc>
+    <loc>https://whisperre.github.io/tags/related-feedback/</loc>
     <lastmod>2019-07-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -43,13 +43,13 @@
   </url>
   
   <url>
-    <loc>https://whisperre.github.io/tags/ubuntu/</loc>
+    <loc>https://whisperre.github.io/categories/ubuntu/</loc>
     <lastmod>2019-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://whisperre.github.io/categories/ubuntu/</loc>
+    <loc>https://whisperre.github.io/tags/ubuntu/</loc>
     <lastmod>2019-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -60,13 +60,13 @@
   </url>
   
   <url>
-    <loc>https://whisperre.github.io/tags/blog/</loc>
+    <loc>https://whisperre.github.io/categories/blog/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://whisperre.github.io/categories/blog/</loc>
+    <loc>https://whisperre.github.io/tags/blog/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -88,25 +88,25 @@
   </url>
   
   <url>
-    <loc>https://whisperre.github.io/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://whisperre.github.io/categories/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://whisperre.github.io/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <loc>https://whisperre.github.io/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://whisperre.github.io/categories/text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://whisperre.github.io/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
